@@ -4,13 +4,13 @@
     {
       "src": "*.php",
       "use": "vercel-php@0.6.0",
-      "config": { "nodeVersion": "20.x" }
+      "config": { "nodeVersion": "18.x" }
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/home.php"
     }
   ]
 }
